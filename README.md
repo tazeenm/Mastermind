@@ -1,2 +1,3 @@
 # Mastermind
-A game in which the user can guess the hidden colours based on certain clues. 
+MasterMind is a well-known logic game. At the beginning of the game, a random four-digit color code out of six different colors is set and hidden. The player tries to decrypt the color code by placing different colored circles in a row on the board. If a circle has the correct color and is placed at the right spot, B is set on the TextView. If the color is correct, but the spot is not, W is set on the TextView. If none of these colors are matched, the TextView is reset to null. The goal of the game is to decrypt the code with the least possible guesses. If the player does not find out the code after 8 guesses, the game is over and the color code is shown.
+If the game is over, it can be restarted again.
